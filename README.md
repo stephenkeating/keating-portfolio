@@ -1,6 +1,6 @@
 Portofolio site for Stephen Keating
 
-Projects:
+#Projects:
 “Earworm” - Github frontend | Github backend | Live
 "Name that tune" app. Tech: React.js | Ruby on Rails | Spotify APIs | Custom CSS | PostgreSQL | AWS | Datadog
 Created algorithm to match user guesses to track titles, including Jaro-Winkler metric for fuzzy matching
@@ -17,7 +17,7 @@ Optimized memory and database usage through a custom schema built with Rails, Ac
 Designed and implemented fully custom CSS to follow responsive but dynamic and functional design philosophy
 Followed modular design patterns in React frontend to allow for adaptability and reusable code base
 
-Stock Tracker Demo - Github | Live
+#Stock Tracker Demo - Github | Live
 Stock portfolio app. Tech: JWT auth | React.js | Redux | Thunk | Ruby on Rails | IEX Cloud APIs | PostgreSQL | Custom CSS
 Managed frontend complexity with Redux to load and edit user data across various components of the app
 Employed IEX Cloud APIs to get “live” stock price data, storing purchase data to BE and displaying the difference between purchase price and current value
