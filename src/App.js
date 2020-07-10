@@ -1,12 +1,15 @@
-import React from 'react';
-import './App.css';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './Routes';
+import Nav from './Components/Nav';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-
-    </div>
+    <Router>
+      <Nav />
+      <Routes />
+    </Router>
   );
-}
+};
 
 export default App;
