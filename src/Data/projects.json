@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Earworm",
+    "url": "https://earworm.netlify.com/",
+    "github": "https://github.com/stephenkeating/earworm-frontend",
+    "description": "Name that tune app",
+    "tech": 
+      [
+        "React.js", 
+        "Ruby on Rails", 
+        "Spotify APIs", 
+        "Custom CSS", 
+        "PostgreSQL", 
+        "AWS", 
+        "Datadog"
+      ],
+    "bullets": 
+      [
+        "Created algorithm to match user guesses to track titles, including Jaro-Winkler metric for fuzzy matching",
+        "Implemented Spotify APIs on backend to build Ruby on Rails API that called Spotify Web player on the frontend",
+        "Deployed to AWS and installed the Datadog agent to monitor analytics and performance",
+        "Designed database schema using ActiveRecord and PostgreSQL to allow fast loading of large amounts of data",
+        "Wrote responsive interface in consultation with a designer with entirely custom CSS"
+      ]
+  }
+]
