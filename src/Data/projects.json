@@ -51,5 +51,27 @@
         "Designed and implemented fully custom CSS to follow responsive but dynamic and functional design philosophy",
         "Followed modular design patterns in React frontend to allow for adaptability and reusable code base"
       ]
+  },
+  {
+    "title": "Stock Tracker Demo",
+    "url": "https://keating-stock-tracker.netlify.com/",
+    "github": "https://github.com/stephenkeating/stock-tracker-ttp",
+    "description": "Stock portfolio app",
+    "tech": 
+      [
+        "JWT auth",
+        "React.js",
+        "Redux",
+        "Thunk",
+        "Ruby on Rails",
+        "IEX Cloud APIs",
+        "PostgreSQL",
+        "Custom CSS"
+      ],
+    "bullets": 
+      [
+        "Managed frontend complexity with Redux to load and edit user data across various components of the app",
+        "Employed IEX Cloud APIs to get “live” stock price data, storing purchase data to BE and displaying the difference between purchase price and current value"
+      ]
   }
 ]
