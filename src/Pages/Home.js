@@ -7,6 +7,7 @@ const Home = () => {
   const projectsMap = projects.map((project) =>
                         <div>
                           {project.title}
+                          {project.url}
                         </div>
   )
 
