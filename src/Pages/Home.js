@@ -1,14 +1,16 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import projects from '../Data/projects.json';
 
 const Home = () => {
-  const username = useSelector(state => state.username);
-  const text = username ? (
-    <h1>{username} is currently logged in</h1>
-  ) : (
-    <h1>Nobody is logged in</h1>
-  );
-  return <div>{text}</div>;
+
+  // projects renders all the projects
+  const projectsMap = projects.map((project) =>
+                        <div>
+                          {project.title}
+                        </div>
+  )
+
+  return <div>{projectsMap}</div>;
 };
-  
+
 export default Home;
