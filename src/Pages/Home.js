@@ -1,17 +1,20 @@
 import React from 'react';
+import ProjectCard from '../Components/ProjectCard.js'
 import projects from '../Data/projects.json';
 
 const Home = () => {
 
   // projects renders all the projects
-  const projectsMap = projects.map((project) =>
-                        <div>
-                          {project.title}
-                          {project.url}
-                        </div>
+  const projectsMap = projects.map((project, i) =>
+                        <ProjectCard
+                          key={i}
+                          project={project}
+                        />
   )
 
-  return <div>{projectsMap}</div>;
+  return <>
+          { projectsMap }
+        </>
 };
 
 export default Home;
