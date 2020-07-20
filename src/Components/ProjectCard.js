@@ -3,7 +3,9 @@ import React from 'react';
 const ProjectCard = ({project: {title, url, description, tech, bullets}}) => {
 
   return <div className='project-card'>
-          { title }
+          <div className='project-card-title'>
+            { title }
+          </div>
           { url }
           { description }
           { tech }

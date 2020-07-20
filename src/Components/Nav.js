@@ -9,8 +9,10 @@ const Nav = () => {
   //   dispatch(userActions.logoutUser());
   // };
   return (
-    <nav style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-      {/* <Link to="/">Home</Link> */}
+    <nav>
+      STEPHEN KEATING
+      <a href="https://www.linkedin.com/in/stephenmkeating/">LinkedIn</a>
+      <a href="https://github.com/stephenkeating/">GitHub</a>
       {/* <Link to="/signup">Signup</Link>
       <Link to="/login">Login</Link>
       <Link to="/" onClick={handleLogout}>

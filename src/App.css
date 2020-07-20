@@ -1,7 +1,62 @@
-.nav {
-  height: 45px
+:root {  
+  /* NBA Logo Colors */
+  /* --blue: #1D428A;
+  --white: #FFFFFF;
+  --red: #D00D2E;  */
+
+  /* Theme Colors */
+  /* --medBlue: #0B153C;
+  --darkBlue: #00092D;
+  --gray: #CECCCC;
+  --black: #000000; */
+
+  /* Example of how to call CSS variables:
+    color: var(--blue);
+  */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  background-color: black;
+  color: white;
+}
+
+a {
+  /* color: black; */
+  text-decoration: none;
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+nav {
+  height: 45px;
+  /* display: 'flex'; */
+  /* justify-content: 'space-evenly'; */
+  font-size: 30px;
+  text-align: center;
+}
+
+.header {
+  font-size: 30px;
+  text-align: center;
+}
+
+.projects-container {
+
 }
 
 .project-card {
   text-align: center;
+}
+
+.project-card-title {
+  font-weight: bold;
 }
