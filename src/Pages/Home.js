@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from '../Components/ProjectCard.js'
+import Header from '../Components/Header.js'
 import projects from '../Data/projects.json';
 
 const Home = () => {
@@ -12,9 +13,12 @@ const Home = () => {
                         />
   )
 
-  return <>
-          { projectsMap }
-        </>
+  return <div>
+          <Header/>
+          <div className='projects-container'>
+            { projectsMap }
+          </div>
+        </div>
 };
 
 export default Home;
