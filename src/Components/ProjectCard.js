@@ -1,10 +1,10 @@
 import React from 'react';
 
-const ProjectCard = ({ even, project: {title, url, description, tech, bullets}}) => {
+const ProjectCard = ({ even, project: {title, url, description, tech, bullets, github}}) => {
 console.log(even)
   return <div className={'project-card' + (even ? ' even' : ' odd')}>
           <div className='project-card-title'>
-            <a href={url}>{title}</a>
+            <a href={url} target="_blank">{title}</a>
           </div>
           <div className='project-card-description'>
             { description }
@@ -19,9 +19,14 @@ console.log(even)
           <div className='project-card-bullets'>
             { bullets.map(bullet =>
                           <div>
-                            { bullet }
+                            {'→ '}{ bullet }
                           </div>
               )}
+          </div>
+          <div className='project-card-links'>
+            <a href={url} target="_blank">Live</a> 
+            {' | '}
+            <a href={github} target="_blank">GitHub</a>
           </div>
         </div>
 };

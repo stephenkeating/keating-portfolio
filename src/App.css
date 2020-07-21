@@ -48,7 +48,7 @@ nav {
   margin-left: 1em;
   margin-right: 1em;
   display: flex;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
   letter-spacing: .09em;
 }
@@ -89,9 +89,13 @@ h1 {
   margin-bottom: .5em;
 }
 
-.project-card-tech {
+  .project-card-tech {
   margin-bottom: .5em;
-}
+  }
+
+  .project-card-bullets {
+  margin-bottom: .5em;
+  }
 
 .even {
   margin-right: 25%;
