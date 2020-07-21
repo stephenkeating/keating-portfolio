@@ -56,7 +56,6 @@ nav {
 .nav-link {
   display: flex;
   letter-spacing: .01em;
-  /* margin: 2em; */
   font-weight: 200;
   font-size: 15px;
   box-sizing: border-box;
@@ -64,7 +63,7 @@ nav {
 
 h1 {
   text-align: center;
-  margin: 10%;
+  margin: 5%;
 }
 
 .projects-container {
@@ -72,11 +71,32 @@ h1 {
 }
 
 .project-card {
-  text-align: center;
+  /* text-align: center; */
+  /* margin: 5%; */
+  margin-bottom: 2em;
 }
 
 .project-card-title {
+  margin-bottom: .1em;
   font-weight: bold;
   letter-spacing: .05em;
   font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.project-card-description {
+  margin-bottom: .5em;
+}
+
+.project-card-tech {
+  margin-bottom: .5em;
+}
+
+.even {
+  margin-right: 25%;
+}
+
+.odd {
+  margin-left: 25%;
 }

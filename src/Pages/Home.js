@@ -10,6 +10,7 @@ const Home = () => {
                         <ProjectCard
                           key={i}
                           project={project}
+                          even={i % 2 === 0 ? true : false}
                         />
   )
 

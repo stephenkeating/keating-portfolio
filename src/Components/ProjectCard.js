@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ProjectCard = ({project: {title, url, description, tech, bullets}}) => {
-
-  return <div className='project-card'>
+const ProjectCard = ({ even, project: {title, url, description, tech, bullets}}) => {
+console.log(even)
+  return <div className={'project-card' + (even ? ' even' : ' odd')}>
           <div className='project-card-title'>
             <a href={url}>{title}</a>
           </div>
@@ -17,7 +17,7 @@ const ProjectCard = ({project: {title, url, description, tech, bullets}}) => {
             )}
           </div>
           <div className='project-card-bullets'>
-            { bullets.map((bullet) =>
+            { bullets.map(bullet =>
                           <div>
                             { bullet }
                           </div>
