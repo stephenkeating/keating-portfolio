@@ -12,7 +12,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 body {
@@ -29,6 +29,9 @@ a {
   border-bottom-color: black;
   border-bottom-style: solid;
   border-bottom-width: 2px;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 2px;
 }
 
 a:hover {
@@ -36,27 +39,26 @@ a:hover {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   box-sizing: border-box;
-  /* transition-delay: 0s;
+  transition-delay: 0s;
   transition-duration: 0.5s;
   transition-property: all;
-  transition-timing-function: ease; */
+  transition-timing-function: ease;
 }
 
 nav {
   height: 85px;
-  font-size: 30px;
   text-align: center;
-  font-weight: bold;
   display: flex;
-  justify-content: flex-end;
-  /* background: black; */
-  /* vertical-align: bottom; */
+  justify-content: center;
   align-items: center;
+  align-content: space-between
 }
 
 .nav-title {
   margin-left: .5em;
-  margin-right: auto;
+  margin-right: .5em;
+  display: flex;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: .08em;
 }
@@ -64,9 +66,10 @@ nav {
 .nav-link {
   display: flex;
   letter-spacing: 0em;
-  margin-right: .5em;
+  margin: 2em;
   font-weight: 300;
-  font-size: medium;
+  font-size: 15px;
+  box-sizing: border-box;
 }
 
 h1 {

@@ -10,11 +10,11 @@ const Nav = () => {
   // };
   return (
     <nav>
-      <div className='nav-title'>
-        STEPHEN KEATING
-      </div>
       <div className='nav-link'>
         <a href="https://www.linkedin.com/in/stephenmkeating/">LinkedIn</a>
+      </div>
+      <div className='nav-title'>
+        STEPHEN KEATING
       </div>
       <div className='nav-link'>
         <a href="https://github.com/stephenkeating/">GitHub</a>
