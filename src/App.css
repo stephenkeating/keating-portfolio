@@ -18,6 +18,7 @@
 body {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 300;
+  font-size: medium;
   background-color: black;
   color: white;
 }
@@ -25,9 +26,9 @@ body {
 a {
   text-decoration: none;
   color: white;
-  /* border-bottom-color: white;
+  border-bottom-color: black;
   border-bottom-style: solid;
-  border-bottom-width: 2px; */
+  border-bottom-width: 2px;
 }
 
 a:hover {
@@ -35,10 +36,10 @@ a:hover {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   box-sizing: border-box;
-  transition-delay: 0s;
+  /* transition-delay: 0s;
   transition-duration: 0.5s;
   transition-property: all;
-  transition-timing-function: ease;
+  transition-timing-function: ease; */
 }
 
 nav {
@@ -46,7 +47,6 @@ nav {
   font-size: 30px;
   text-align: center;
   font-weight: bold;
-  letter-spacing: .05em;
   display: flex;
   justify-content: flex-end;
   /* background: black; */
@@ -55,22 +55,27 @@ nav {
 }
 
 .nav-title {
+  margin-left: .5em;
   margin-right: auto;
+  font-weight: bold;
+  letter-spacing: .08em;
 }
 
 .nav-link {
   display: flex;
-  /* justify-content: space-between; */
-  /* justify-content: flex-end */
+  letter-spacing: 0em;
+  margin-right: .5em;
+  font-weight: 300;
+  font-size: medium;
 }
 
-.header {
-  font-size: 30px;
+h1 {
   text-align: center;
+  margin: 10%;
 }
 
 .projects-container {
-
+  margin: 5%;
 }
 
 .project-card {
