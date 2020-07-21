@@ -12,10 +12,11 @@
 * {
   margin: 0;
   padding: 0;
+  /* box-sizing: border-box; */
 }
 
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 300;
   background-color: black;
   color: white;
@@ -29,12 +30,38 @@ a {
   border-bottom-width: 2px; */
 }
 
+a:hover {
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  box-sizing: border-box;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
 nav {
-  height: 45px;
-  /* display: 'flex'; */
-  /* justify-content: 'space-evenly'; */
+  height: 85px;
   font-size: 30px;
   text-align: center;
+  font-weight: bold;
+  letter-spacing: .05em;
+  display: flex;
+  justify-content: flex-end;
+  /* background: black; */
+  /* vertical-align: bottom; */
+  align-items: center;
+}
+
+.nav-title {
+  margin-right: auto;
+}
+
+.nav-link {
+  display: flex;
+  /* justify-content: space-between; */
+  /* justify-content: flex-end */
 }
 
 .header {
