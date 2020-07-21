@@ -4,6 +4,7 @@
     "url": "https://earworm.netlify.com/",
     "github": "https://github.com/stephenkeating/earworm-frontend",
     "description": "Name that tune app",
+    "image": "stock-tracker.png",
     "tech": 
       [
         "React.js", 
@@ -28,6 +29,7 @@
     "url": "https://fivegames.netlify.app/playlists/16",
     "github": "https://github.com/5-Games",
     "description": "NBA game playlist curator and sharing app",
+    "image": "stock-tracker.png",
     "tech": 
       [
         "JWT auth", 
@@ -57,6 +59,7 @@
     "url": "https://keating-stock-tracker.netlify.com/",
     "github": "https://github.com/stephenkeating/stock-tracker-ttp",
     "description": "Stock portfolio app",
+    "image": "stock-tracker.png",
     "tech": 
       [
         "JWT auth",
