@@ -3,8 +3,8 @@ import React from 'react';
 const Header = () => {
 
   return <h1>
-          I'm a web developer and am currently seeking a new role. 
-          Here are a few projects that I've worked on recently. 
+          Web developer based in Brooklyn. Currently seeking a new role. 
+          Here are a few of my recent projects. 
         </h1>
 };
 
