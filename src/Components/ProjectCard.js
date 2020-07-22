@@ -1,19 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ProjectCard = ({ even, project: {title, url, description, tech, bullets, github, image}}) => {
+const ProjectCard = ({ even, project: {title, url, description, tech, bullets, github, shortName}}) => {
 
   return <div className={'project-card' + (even ? ' even' : ' odd')}>
-          <div className='project-image-container'>
-            <img className='project-image' src={ require(`../Assets/${image}`) } alt={`${title} screenshot`}/>
-            <div className='project-image-overlay'>
-              <div className='project-image-text'>
-                → Project Details
+          <Link to={`/${shortName}`}>
+            <div className='project-image-container'>
+              <img className='project-image' src={ require(`../Assets/${shortName}.png`) } alt={`${title} screenshot`}/>
+              <div className='project-image-overlay'>
+                <div className='project-image-text'>
+                  → Project Details
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
           <div className='project-card-title'>
-            <a href={url} target="_blank" rel="noopener noreferrer">{title}</a>
+            <Link to={`/${shortName}`}>{title}</Link>
           </div>
           <div className='project-card-description'>
             { description }
@@ -37,7 +39,7 @@ const ProjectCard = ({ even, project: {title, url, description, tech, bullets, g
             {' | '}
             <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>
             {' | '}
-            <a href={github} target="_blank" rel="noopener noreferrer">Project Details</a>
+            <Link to={`/${shortName}`}>Project Details</Link>
           </div>
         </div>
 };
