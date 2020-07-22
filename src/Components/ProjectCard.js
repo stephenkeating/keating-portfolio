@@ -35,6 +35,8 @@ const ProjectCard = ({ even, project: {title, url, description, tech, bullets, g
             <a href={url} target="_blank">Live</a> 
             {' | '}
             <a href={github} target="_blank">GitHub</a>
+            {' | '}
+            <a href={github} target="_blank">Project Details</a>
           </div>
         </div>
 };

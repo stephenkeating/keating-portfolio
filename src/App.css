@@ -78,7 +78,7 @@ h1 {
 }
 
 .project-image-container:hover .project-image-overlay {
-  opacity: 1;
+  opacity: .8;
 }
 
 .project-image {
@@ -97,12 +97,12 @@ h1 {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: black;
 }
 
-.product-image-text {
+.project-image-text {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   top: 50%;
   left: 50%;
