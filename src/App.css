@@ -154,3 +154,12 @@ margin-bottom: .5em;
   margin-top: 20%;
   width: 90%;
 }
+
+.product-page-title {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.project-page-sub-title {
+  font-weight: 800;
+}
