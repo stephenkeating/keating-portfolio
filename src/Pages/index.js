@@ -1,9 +1,9 @@
-import Signup from './Signup';
-import Login from './Login';
+import Earworm from './Earworm';
+import FiveGames from './FiveGames';
 import Home from './Home';
 
 export default {
-  Signup,
-  Login,
+  Earworm,
+  FiveGames,
   Home
 };
