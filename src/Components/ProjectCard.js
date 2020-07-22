@@ -3,12 +3,14 @@ import React from 'react';
 const ProjectCard = ({ even, project: {title, url, description, tech, bullets, github, image}}) => {
 
   return <div className={'project-card' + (even ? ' even' : ' odd')}>
+          <div className='project-image-container'>
             <img className='project-image' src={ require(`../Assets/${image}`) } />
             <div className='project-image-overlay'>
               <div className='project-image-text'>
-                '→ Project Details'
+                → Project Details
               </div>
             </div>
+          </div>
           <div className='project-card-title'>
             <a href={url} target="_blank">{title}</a>
           </div>

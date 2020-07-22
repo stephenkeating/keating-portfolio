@@ -70,8 +70,21 @@ h1 {
   margin: 5%;
 }
 
+.project-image-container {
+  display: block;
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.project-image-container:hover .project-image-overlay {
+  opacity: 1;
+}
+
 .project-image {
-  max-width: 100%;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .project-image-overlay {
@@ -87,9 +100,20 @@ h1 {
   background-color: #008CBA;
 }
 
+.product-image-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .project-card {
   margin-bottom: 2em;
-  position: relative;
 }
 
 .project-card-title {
