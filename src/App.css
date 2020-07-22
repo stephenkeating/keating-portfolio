@@ -144,3 +144,13 @@ margin-bottom: .5em;
 .odd {
   margin-left: 25%;
 }
+
+.project-page {
+  margin: 10%;
+}
+
+.project-page-image {
+  margin: 5%;
+  margin-top: 20%;
+  width: 90%;
+}
