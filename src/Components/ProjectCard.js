@@ -5,7 +5,7 @@ const ProjectCard = ({ even, project: {title, url, description, tech, bullets, g
 
   return <div className={'project-card' + (even ? ' even' : ' odd')}>
           <div className='project-image-container'>
-            <img className='project-image' src={ require(`../Assets/${image}`) } />
+            <img className='project-image' src={ require(`../Assets/${image}`) } alt={`${title} screenshot`}/>
             <div className='project-image-overlay'>
               <div className='project-image-text'>
                 → Project Details
