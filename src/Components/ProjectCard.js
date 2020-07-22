@@ -13,7 +13,7 @@ const ProjectCard = ({ even, project: {title, url, description, tech, bullets, g
             </div>
           </div>
           <div className='project-card-title'>
-            <a href={url} target="_blank">{title}</a>
+            <a href={url} target="_blank" rel="noopener noreferrer">{title}</a>
           </div>
           <div className='project-card-description'>
             { description }
@@ -33,11 +33,11 @@ const ProjectCard = ({ even, project: {title, url, description, tech, bullets, g
               )}
           </div> */}
           <div className='project-card-links'>
-            <a href={url} target="_blank">Live</a> 
+            <a href={url} target="_blank" rel="noopener noreferrer">Live</a> 
             {' | '}
-            <a href={github} target="_blank">GitHub</a>
+            <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>
             {' | '}
-            <a href={github} target="_blank">Project Details</a>
+            <a href={github} target="_blank" rel="noopener noreferrer">Project Details</a>
           </div>
         </div>
 };
