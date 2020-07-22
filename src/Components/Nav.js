@@ -14,7 +14,7 @@ const Nav = () => {
         <a href="https://www.linkedin.com/in/stephenmkeating/">LinkedIn</a>
       </div>
       <div className='nav-title'>
-        STEPHEN KEATING
+        <Link to="/">STEPHEN KEATING</Link>
       </div>
       <div className='nav-link'>
         <a href="https://github.com/stephenkeating/">GitHub</a>

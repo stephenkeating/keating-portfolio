@@ -11,6 +11,7 @@ const Routes = () => {
       <Route path="/fivegames" component={Pages.FiveGames} />
       <Route path="/earworm" component={Pages.Earworm} />
       <Route exact path="/" component={Pages.Home} />
+      <Route exact path="/stocktracker" component={Pages.StockTracker} />
     </Switch>
   );
 };
