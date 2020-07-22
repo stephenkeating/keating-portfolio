@@ -74,8 +74,22 @@ h1 {
   max-width: 100%;
 }
 
+.project-image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
 .project-card {
   margin-bottom: 2em;
+  position: relative;
 }
 
 .project-card-title {
@@ -91,13 +105,13 @@ h1 {
   /* margin-bottom: .5em; */
 }
 
-  .project-card-tech {
-  margin-bottom: .5em;
-  }
+.project-card-tech {
+margin-bottom: .5em;
+}
 
-  .project-card-bullets {
-  margin-bottom: .5em;
-  }
+.project-card-bullets {
+margin-bottom: .5em;
+}
 
 .even {
   margin-right: 25%;
