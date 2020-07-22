@@ -7,7 +7,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Nav />
       <Routes />
     </Router>
