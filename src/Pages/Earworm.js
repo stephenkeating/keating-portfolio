@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import projects from '../Data/projects.json';
 
 const Earworm = () => {
+
+  useEffect(() => {
+    const body = document.querySelector('#root');
+
+    body.scrollIntoView({
+        behavior: 'smooth'
+    }, 500)
+
+  }, []);
 
   const {title, url, description, tech, bullets, github, shortName} = projects[0]
 
