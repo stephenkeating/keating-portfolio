@@ -21,20 +21,6 @@ const ProjectCard = ({ even, project: {title, url, description, tech, bullets, g
       <div className='project-card-description'>
         { description }
       </div>
-      {/* <div className='project-card-tech'>
-        { tech.map((t, i) =>
-                    <span>
-                      { (i ? ' | ': '') + t }
-                    </span>
-        )}
-      </div>
-      <div className='project-card-bullets'>
-        { bullets.map(bullet =>
-                      <div>
-                        {'→ '}{ bullet }
-                      </div>
-          )}
-      </div> */}
       <div className='project-card-links'>
         <a href={url} target="_blank" rel="noopener noreferrer">Live</a> 
         {' | '}
