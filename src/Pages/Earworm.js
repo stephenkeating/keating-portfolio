@@ -53,6 +53,9 @@ const Earworm = () => {
                             </span>
                 )}
         </div>
+        <h1>
+          <img className='project-page-image' src={ require(`../Assets/${shortName}1.png`) } alt={`${title} screenshot`}/>
+        </h1>
       </div>
     </div>
   )
