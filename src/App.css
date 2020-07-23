@@ -150,6 +150,10 @@ h1 {
   margin: 5%;
 }
 
+.project-page-tech {
+  text-align: center;
+}
+
 .project-page-row {
   display: flex;
 }
