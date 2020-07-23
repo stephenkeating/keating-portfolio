@@ -41,16 +41,16 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: space-between
+  align-content: space-between;
+  padding: 10%;
 }
 
 .nav-title {
-  margin-left: 1em;
-  margin-right: 1em;
   display: flex;
   font-size: 35px;
   font-weight: bold;
   letter-spacing: .09em;
+  margin: 10%;
 }
 
 .nav-link {
@@ -68,9 +68,6 @@ h1 {
 
 .projects-container {
   margin: 5%;
-  display: flex;
-  /* flex-direction: column; */
-  flex-wrap: wrap;
 }
 
 .project-image-container {
@@ -117,7 +114,6 @@ h1 {
 
 .project-card {
   margin-bottom: 2em;
-  min-width: 200px;
 }
 
 .project-card-title {
@@ -134,13 +130,18 @@ h1 {
 }
 
 .even {
-  /* margin-right: 45%; */
-  width: 50%;
+  margin-right: 55%;
 }
 
 .odd {
-  /* margin-left: 45%; */
-  width: 50%;
+  margin-left: 55%;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-card {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 .project-page {
