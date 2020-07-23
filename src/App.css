@@ -42,7 +42,7 @@ nav {
   justify-content: center;
   align-items: center;
   align-content: space-between;
-  padding: 10%;
+  padding: 8%;
 }
 
 .nav-title {
@@ -137,14 +137,16 @@ h1 {
   margin-left: 55%;
 }
 
-@media only screen and (max-width: 600px) {
-  .project-card {
-    margin-right: 0;
-    margin-left: 0;
-  }
+/* .project-page {
+  margin: 5%;
+} */
+
+.product-page-title {
+  margin-top: 10%;
+  margin-bottom: 15%;
 }
 
-.project-page {
+.project-page-body {
   margin: 5%;
 }
 
@@ -157,7 +159,15 @@ h1 {
 }
 
 .left-column {
-  margin-right: 10%;
+  flex: 4;
+  padding-right: 10%;
+  padding-left: 10%;
+  text-align: center;
+}
+
+.right-column {
+  flex: 5;
+  /* margin-right: 10%; */
   text-align: center;
 }
 
@@ -172,4 +182,22 @@ h1 {
 
 .project-page-sub-title {
   font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-card {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .project-page-column {
+    display: block;
+  }
+  .project-page-row {
+    display: block;
+  }
+  .left-column {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 1em;
+  }
 }
