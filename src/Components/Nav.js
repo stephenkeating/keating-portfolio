@@ -11,19 +11,19 @@ const Nav = () => {
   return (
     <nav className='nav'>
       <div className='nav-link'>
-        <a href="https://learn.co/stephenmk/resume">Resume</a>
+        <a href="https://learn.co/stephenmk/resume" target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
       <div className='nav-link'>
-        <a href="https://www.linkedin.com/in/stephenmkeating/">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/stephenmkeating/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
       <div className='nav-title'>
         <Link to="/">STEPHEN KEATING</Link>
       </div>
       <div className='nav-link'>
-        <a href="https://github.com/stephenkeating/">GitHub</a>
+        <a href="https://github.com/stephenkeating/" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
       <div className='nav-link'>
-        <a href="mailto:stephen.keating@gmail.com">Email</a>
+        <a href="mailto:stephen.keating@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
       </div>
     </nav>
   );
