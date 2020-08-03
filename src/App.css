@@ -36,13 +36,13 @@ a:hover {
 }
 
 nav {
-  height: 130px;
+  /* height: 130px; */
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: space-between;
-  padding: 8%;
+  padding: 1%;
 }
 
 .nav-title {
@@ -50,7 +50,7 @@ nav {
   font-size: 35px;
   font-weight: bold;
   letter-spacing: .09em;
-  margin: 10%;
+  margin: 5%;
 }
 
 .nav-link {
@@ -59,6 +59,7 @@ nav {
   font-weight: 200;
   font-size: 15px;
   box-sizing: border-box;
+  margin: 1%;
 }
 
 h1 {
@@ -203,5 +204,8 @@ h1 {
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 1em;
+  }
+  .nav {
+    flex-wrap: wrap;
   }
 }

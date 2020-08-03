@@ -9,7 +9,10 @@ const Nav = () => {
   //   dispatch(userActions.logoutUser());
   // };
   return (
-    <nav>
+    <nav className='nav'>
+      <div className='nav-link'>
+        <a href="https://learn.co/stephenmk/resume">Resume</a>
+      </div>
       <div className='nav-link'>
         <a href="https://www.linkedin.com/in/stephenmkeating/">LinkedIn</a>
       </div>
@@ -19,11 +22,9 @@ const Nav = () => {
       <div className='nav-link'>
         <a href="https://github.com/stephenkeating/">GitHub</a>
       </div>
-      {/* <Link to="/signup">Signup</Link>
-      <Link to="/login">Login</Link>
-      <Link to="/" onClick={handleLogout}>
-        Logout
-      </Link> */}
+      <div className='nav-link'>
+        <a href="mailto:stephen.keating@gmail.com">Email</a>
+      </div>
     </nav>
   );
 };
