@@ -67,6 +67,12 @@ h1 {
   margin: 5%;
 }
 
+.main-header {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 200;
+}
+
 .projects-container {
   margin: 5%;
 }
